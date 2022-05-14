@@ -1,0 +1,81 @@
+.header {
+    border-bottom: 1px solid #ECECEC;
+}
+
+.navigation {
+    background-color: #FFFFFF;
+}
+
+.navigation__web-logo {
+    color: var(--accent-color);
+}
+
+.navigation__studio-logo {
+    color: #000000;
+}
+
+.navigation__logo {
+    display: block;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.20;
+
+    padding-top: 32px;
+    padding-bottom: 25px;
+    margin-right: 93px;
+}
+
+/* ---------------Верхняя линия--------------- */
+.navigation .link {
+    display: block;
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    padding-bottom: 32px;
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.navigation .link:hover,
+.navigation .link:focus {
+    color: var(--accent-color);
+}
+
+.navigation__link {
+    display: block;
+    color: #757575;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    padding-bottom: 32px;
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.navigation__icon {
+    margin-right: 10px;
+
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+.navigation__link:hover,
+.navigation__link:focus {
+    color: var(--accent-color);
+}
+
+.navigation__link:hover .navigation__icon,
+.navigation__link:focus .navigation__icon {
+    fill: var(--accent-color)
+}
